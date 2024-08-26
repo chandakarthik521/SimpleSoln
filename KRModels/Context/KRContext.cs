@@ -14,6 +14,7 @@ namespace KRModels.Context
 
         }
         public virtual DbSet<MSkin> MSkinColours { get; set; }
+        public virtual DbSet<MHair> MHairColours{ get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -22,6 +23,12 @@ namespace KRModels.Context
             {
                 entity.ToTable("M_Skin", "avatar");
                 entity.HasKey(x => x.SkinID);
+            });
+
+            modelBuilder.Entity<MHair>(entity =>
+            {
+                entity.ToTable("M_Hair", "avatar");
+                entity.HasKey(x => x.HairId);
             });
         }
     }
