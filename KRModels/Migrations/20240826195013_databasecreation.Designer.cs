@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KRModels.Migrations
 {
     [DbContext(typeof(KRContext))]
-    [Migration("20240826173336_databasecreation")]
+    [Migration("20240826195013_databasecreation")]
     partial class databasecreation
     {
         /// <inheritdoc />
