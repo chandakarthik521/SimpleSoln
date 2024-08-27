@@ -9,6 +9,7 @@ namespace KRModels.Context
         {
 
         }
+
         public KRContext(DbContextOptions<KRContext> Options) : base(Options)
         {
 
