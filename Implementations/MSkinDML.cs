@@ -30,9 +30,10 @@ namespace Implementations
         public bool Put(Guid id, MSkin mSkin)
         {
             var skincolour = Get(id);
-            skincolour.SkinColour = skincolour.SkinColour;
-            skincolour.Createdby = skincolour.Createdby;
-            skincolour.URL = skincolour.URL;
+            skincolour.SkinColour = mSkin.SkinColour;
+            skincolour.Createdby = mSkin.Createdby;
+            skincolour.URL = mSkin.URL;
+            skincolour.IsActive = mSkin.IsActive;
             return (_kRContext.SaveChanges() > 0 ? true : false);
         }
     }

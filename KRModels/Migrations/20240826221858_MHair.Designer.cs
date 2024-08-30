@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KRModels.Migrations
 {
     [DbContext(typeof(KRContext))]
-    [Migration("20240826173336_databasecreation")]
-    partial class databasecreation
+    [Migration("20240826221858_MHair")]
+    partial class MHair
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,31 @@ namespace KRModels.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("KRModels.Models.MHair", b =>
+                {
+                    b.Property<Guid>("HairId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Createdby")
+                        .HasColumnType("int");
+
+                    b.Property<string>("HairColour")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("URL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("HairId");
+
+                    b.ToTable("M_Hair", "avatar");
+                });
 
             modelBuilder.Entity("KRModels.Models.MSkin", b =>
                 {
