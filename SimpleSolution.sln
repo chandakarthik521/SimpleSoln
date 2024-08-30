@@ -15,19 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implemen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{E239D8D7-DDD9-4D4F-BF8D-4DF37F6914FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KRModels", "KRModels\KRModels.csproj", "{E2C0828F-64E4-4CE0-95DA-1D69954C4D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KRModels", "KRModels\KRModels.csproj", "{E2C0828F-64E4-4CE0-95DA-1D69954C4D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{FD3E5C41-DEE9-414D-9434-EB1AD372B7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{FD3E5C41-DEE9-414D-9434-EB1AD372B7BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementations", "Implementations\Implementations.csproj", "{C1EC566F-734B-47AF-9574-97DFEEC23C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementations", "Implementations\Implementations.csproj", "{C1EC566F-734B-47AF-9574-97DFEEC23C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E0A89D2E-56F5-44A3-ABF2-9ECFA4D43BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E0A89D2E-56F5-44A3-ABF2-9ECFA4D43BF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "operations", "operations", "{98872E02-B77D-430A-A273-6B3B0E818EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkinOperations", "SkinOperations\SkinOperations.csproj", "{BB054A79-77F2-4A81-A192-A9C3C6543457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operations", "SkinOperations\Operations.csproj", "{BB054A79-77F2-4A81-A192-A9C3C6543457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkinAbstraction", "SkinAbstraction\SkinAbstraction.csproj", "{4B5DCC15-E420-413B-B6E9-8F35EA9463B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkinAbstraction", "SkinAbstraction\SkinAbstraction.csproj", "{4B5DCC15-E420-413B-B6E9-8F35EA9463B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

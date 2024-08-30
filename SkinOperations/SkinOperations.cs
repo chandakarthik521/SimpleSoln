@@ -1,13 +1,14 @@
 ﻿using Interfaces;
 using KRModels.Models;
 
-namespace SkinAbstraction
+namespace Operations
 {
     public class SkinOperations : ISkinOperations
     {
         private readonly IMSkinDML _mSkinDML;
         public SkinOperations(IMSkinDML mSkinDML)
         {
+
             _mSkinDML = mSkinDML;
         }
         public List<MSkin> Get()

@@ -1,6 +1,6 @@
 ﻿using KRModels.Models;
 
-namespace SkinAbstraction
+namespace Operations
 {
     public interface ISkinOperations
     {
