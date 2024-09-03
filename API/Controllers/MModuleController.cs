@@ -37,10 +37,5 @@ namespace API.Controllers
             return Ok(_moduleAbstraction.PutModuleData(id, mModule));
         }
 
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-
-        }
     }
 }
